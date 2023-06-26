@@ -9,7 +9,7 @@ class Despesas extends Model
 {
     use HasFactory;
 
-    protected $fillabel = ['descricao', 'data', 'valor', 'usuario_id'];
+    protected $fillable = ['descricao', 'data', 'valor', 'usuarios_id', 'created_at', 'updated_at'];
 
     public function Usuarios(){
         return $this->belongsTo(Usuarios::class);

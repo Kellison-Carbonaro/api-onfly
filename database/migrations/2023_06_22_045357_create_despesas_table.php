@@ -19,6 +19,7 @@ class CreateDespesasTable extends Migration
             $table->date('data');
             $table->foreignId('usuarios_id')->constrained();
             $table->decimal('valor', 10, 2);
+            $table->timestamps();
         });
     }
 
