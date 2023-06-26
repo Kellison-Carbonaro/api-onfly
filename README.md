@@ -1,13 +1,6 @@
-Documentação do Aplicativo Vue
-Instalação
-Para instalar o aplicativo, execute o seguinte comando: - -
-
-Executando Localmente
-Para executar o aplicativo localmente, execute o seguinte comando: npm run dev ou yarn dev
-
 # Documentação da API
 
-Teste ONFLY vue 3 + pinia + QUASAR
+Teste ONFLY PHP + LARAVEL
 
 ## Comandos para instalar as dependências do projeto
 ```bash
